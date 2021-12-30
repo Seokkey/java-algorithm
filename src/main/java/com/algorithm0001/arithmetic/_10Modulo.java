@@ -3,6 +3,7 @@ package com.algorithm0001.arithmetic;
 import java.util.Scanner;
 
 /*
+ 문제 번호 : 10430
  문제 :
   (A+B)%C는 ((A%C) + (B%C))%C 와 같을까?
   (A×B)%C는 ((A%C) × (B%C))%C 와 같을까?

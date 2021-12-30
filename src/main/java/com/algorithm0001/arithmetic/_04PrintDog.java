@@ -1,6 +1,7 @@
 package com.algorithm0001.arithmetic;
 
 /*
+ 문제 번호 : 10172
  문제 : 개 출력
  |\_/|
  |q p|   /}

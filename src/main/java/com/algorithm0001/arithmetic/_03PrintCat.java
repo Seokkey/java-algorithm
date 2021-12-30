@@ -1,9 +1,11 @@
 package com.algorithm0001.arithmetic;
 
 import java.io.BufferedWriter;
+import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 /*
+ 문제 번호 : 10171
  문제 : 고양이 출력
  \    /\
   )  ( ')
@@ -15,7 +17,7 @@ import java.io.OutputStreamWriter;
  Study Goal : 고양이 그림을 출력
 */
 public class _03PrintCat {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
     // Escape Sequance 에 주의
     // Escape Sequance는 백슬래시(\) + 문자
 
@@ -42,21 +44,16 @@ public class _03PrintCat {
     System.out.println(stringBuilder);
 
     // 4.BufferedWriter
-//    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-//
-//    bw.write("\\    /\\");
-//    bw.newLine();	// 줄 구분자
-//
-//    bw.write(" )  ( ')");
-//    bw.newLine();
-//
-//    bw.write("(  /  )");
-//    bw.newLine();
-//
-//    bw.write(" \\(__)|");
-//
-//    bw.flush();
-//    bw.close();
+   BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+   bw.write("\\    /\\");
+   bw.newLine();	// 줄 구분자
+   bw.write(" )  ( ')");
+   bw.newLine();
+   bw.write("(  /  )");
+   bw.newLine();
+   bw.write(" \\(__)|");
+   bw.flush();
+   bw.close();
 
   }
 }
