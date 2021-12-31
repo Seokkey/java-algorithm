@@ -28,6 +28,18 @@ public class _06NPrint {
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     StringBuilder sb = new StringBuilder();
 
+    // 1. for 문 => 18148kb	220ms
+    // for (int i = n; i >= 1; i--) {
+    //   sb.append(i).append("\n");
+    // }
+
+    // 2. while 문 => 18088kb	220
+    int i = n;
+    while (i >= 1) {
+      sb.append(i).append("\n");
+      i--;
+    }
+
     br.close();
     bw.write(sb.toString());
     bw.flush();
