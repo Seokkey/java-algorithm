@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /*
- 문제 번호 : 11022번
+ 문제 번호 : 2438번
  문제 : 첫째 줄에는 별 1개, 둘째 줄에는 별 2개, N번째 줄에는 별 N개를 찍는 문제
  시간제한 : 1 초
  메모리 제한 : 128 MB
