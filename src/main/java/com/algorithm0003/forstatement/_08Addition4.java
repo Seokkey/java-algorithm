@@ -22,10 +22,10 @@ import java.io.OutputStreamWriter;
 public class _08Addition4 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int testCount = Integer.parseInt(br.readLine());
+    int testCase = Integer.parseInt(br.readLine());
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     StringBuilder sb = new StringBuilder();
-    for (int i = 1; i <= testCount; i++) {
+    for (int i = 1; i <= testCase; i++) {
       // 1. split => 14264 kb	128 ms
       // String[] input = br.readLine().split(" ");
       // sb.append("Case #")

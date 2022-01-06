@@ -23,11 +23,11 @@ public class _02Addition1 {
     // 1. BufferedReader, BufferedWriter => 14264kb	128ms
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    int testCount = Integer.parseInt(br.readLine());
+    int testCase = Integer.parseInt(br.readLine());
 
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     StringBuilder sb = new StringBuilder();
-    for (int i = 1; i <= testCount; i++) {
+    for (int i = 1; i <= testCase; i++) {
       String[] input = br.readLine().split(" ");
       sb.append(Integer.parseInt(input[0]) + Integer.parseInt(input[1])).append("\n");
     }

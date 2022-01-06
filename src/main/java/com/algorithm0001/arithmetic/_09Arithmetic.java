@@ -24,6 +24,7 @@ import java.util.Scanner;
 */
 public class _09Arithmetic {
   public static void main(String[] args) {
+    // 17840 kb 212 ms
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
     int b = sc.nextInt();

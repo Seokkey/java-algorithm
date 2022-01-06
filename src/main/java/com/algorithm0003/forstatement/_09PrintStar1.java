@@ -17,14 +17,14 @@ import java.io.OutputStreamWriter;
  Study Goal :
   첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 */
-public class _09PrintStart1 {
+public class _09PrintStar1 {
   public static void main(String[] args) throws IOException {
     //1. 14284kb	124ms
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int testCount = Integer.parseInt(br.readLine());
+    int testCase = Integer.parseInt(br.readLine());
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     StringBuilder sb = new StringBuilder();
-    for (int i = 1; i <= testCount; i++) {
+    for (int i = 1; i <= testCase; i++) {
       for (int n = 1; n <= i; n++) {
         sb.append("*");
       }

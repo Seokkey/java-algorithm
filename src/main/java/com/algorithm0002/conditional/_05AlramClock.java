@@ -40,8 +40,12 @@ public class _05AlramClock {
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     StringBuilder sb = new StringBuilder();
     if (minute < 45) {
+      // 최초 알림을 설정한 시간이 45분 보다 작을경우 한 시간을 빼 주고
       hour--;
-      minute = 60 - (45 - minute);
+      // 분은 최대 60분이고
+      // 45미만의 수에서 45를 빼면 음수가 나오니까
+      // 60분+(-X)
+      minute = 60+(minute-45);
       if (hour < 0) {
         hour = 23;
       }
