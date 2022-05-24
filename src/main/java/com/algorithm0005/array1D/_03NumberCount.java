@@ -1,4 +1,4 @@
-package com.algorithm0005.Array1D;
+package com.algorithm0005.array1D;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

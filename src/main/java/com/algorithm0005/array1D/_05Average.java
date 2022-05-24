@@ -1,13 +1,10 @@
-package com.algorithm0005.Array1D;
+package com.algorithm0005.array1D;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
 
 /*
  문제 번호 : 1546번
